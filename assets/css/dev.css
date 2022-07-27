@@ -1,0 +1,66 @@
+body {
+    background: url(../img/hal/bg.jpg) fixed 0% 0% / cover;
+}
+
+#top_visual {
+    margin-top: 100px;
+    height: 200px;
+    display: block;
+    background-color: #000000;
+    width: 100%;
+    text-align: right;
+    padding-right: 30px;
+
+    background-image: url('./assets/img/hal/top_left.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    #top_visual {
+        padding-right: 0 !important;
+        background-position-x: 0 !important;
+    }
+}
+
+.concert_desc {
+    margin-bottom: 50px;
+}
+
+.concert_title {
+    font-size: 1.3em;
+}
+
+.concert_text {
+    text-align: left;
+}
+
+.btn_noupper {
+    text-transform: none !important;
+}
+
+#announce_list {
+    text-align: left;
+}
+
+#announce_list li {
+    margin-bottom: 20px;
+}
+
+.sub_desc {
+    margin: 20px auto;
+}
+
+.sub_p {
+    margin-bottom: 40px;
+}
+
+/* Override */
+.main-raised {
+    margin: -30px 30px 0 !important;
+}
+
+.icon-info {
+    margin-top: 20px;
+}
